@@ -1,0 +1,20 @@
+
+
+#app {
+  display: block;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 100px;
+  left: 100px;
+
+  text-align: center;
+}
+#dashboard {
+  margin: 20px auto;
+
+}
+
+#checkboxes *{
+  text-align: justify;
+}

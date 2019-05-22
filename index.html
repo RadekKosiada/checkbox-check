@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Checkbox check</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+    <div id="dashboard">
+      <button type="submit" id="export" formtarget="_blank">Export</button>
+      <input type="hidden" name="project_id" value="projectId">
+      <button type="submit" id="remove-company" formaction="">Remove selected</button>
+      <button type="submit" formtarget="_blank">Add</button>
+    </div>
+
+    <div id="checkboxes">
+      <div>
+        <input type="checkbox" id="scales" name="scales" onchange='handleChange(this);'>
+        <label for="scales">JavaScript</label>
+      </div>
+      <div>
+        <input type="checkbox" id="horns" name="horns" onchange='handleChange(this);'>
+        <label for="horns">Python</label>
+      </div>
+      <div>
+        <input type="checkbox" id="horns" name="horns" onchange='handleChange(this);'>
+        <label for="horns">Ruby</label>
+      </div>
+      <br>
+
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
