@@ -16,13 +16,14 @@
 </head>
 
 <body>
-  <div id="app">
-    <div id="dashboard">
+  <div id="app"> 
+    <form action="/interface/add_companies/" method="POST" onsubmit="event.preventDefault(); validateMyForm();">
+    <!-- <form id="dashboard"> -->
       <button type="submit" id="export" formtarget="_blank">Export</button>
       <input type="hidden" name="project_id" value="projectId">
       <button type="submit" id="remove-company" formaction="">Remove selected</button>
       <button type="submit" formtarget="_blank">Add</button>
-    </div>
+    </form>
 
     <div id="checkboxes">
       <div>
